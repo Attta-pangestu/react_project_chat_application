@@ -49,7 +49,7 @@ const Chat = ({ location }) => {
     event.preventDefault();
 
     if(message) {
-      socket.emit('sendMessage', message, () => setMessage(''));
+      socket.emit('sendMessage', message, () => setMessage('Halo ini Atha'));
     }
   }
 
